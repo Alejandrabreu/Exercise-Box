@@ -1,0 +1,64 @@
+/*hola*/
+/*usando class*/
+body{
+	text-align: center;
+}
+.azul{
+	background-color: blue;
+}
+/*cambiando colores a las etiquetas*/
+h1,h2,p{
+	color:black;
+}
+/* le sacamos la linea al enlace*/
+a{
+	color:white;
+	text-decoration: none;
+}
+/*USANDO ID*/
+#titulo{
+	background-color: red;
+}
+/*Llamando al li siguiente del primero*/
+li:first-of-type + li{
+	color:white;
+}
+/*llamando al primer hijo de ol*/
+ol li:first-child{
+	color:green;
+}
+/*llamando al ultimo hijo de ol*/
+li:last-child{
+	color:yellow;
+}
+.caja{
+display: inline-flex;
+	background-color: yellow;
+	padding: 1em;
+	margin-right: 4em;
+	border:1em dotted black;
+}
+.cajaDos{
+display: inline-flex;
+	background-color: blue;
+	padding: 1em;
+	border: 10px dotted black;
+	margin-top: 1em;
+	margin-right: 4em;
+	visibility: visible;
+
+}
+h1{
+	text-align: center;
+	color: green
+}
+.cajaTres{
+display: inline-flex;
+	background-color: black;
+	padding: 1em;
+	border: 10px dotted white;
+	margin-top: 1em;
+	margin-right: 4em;
+	color: white;
+	visibility: visible;
+}
